@@ -1,0 +1,22 @@
+.table {
+    display: table;
+    width: 100%;
+    border: 1px solid #666666;
+    border-spacing: 5px; /* cellspacing:poor IE support for  this */
+  }
+  .row {
+    width: 100%;
+    display: table-row;
+  }
+  .row-header {
+    width: 100%;
+    display: flex;
+    background-color: lightcoral;
+    padding: 5px;
+    font-size: 14px;
+  }
+  .column {
+    display: table-cell;
+  
+    padding: 5px;
+  }

@@ -1,0 +1,10 @@
+<header class="title-login">
+  <span >Login</span>
+</header>
+<div class="content">
+  <input [class]="usernameValid== true ? 'input-login' : 'error'" (change)="changeUsername($event)" placeholder="username" />
+  <input type="password" [class]="passwordValid == true ? 'input-login' : 'error'" (change)="changePassword($event)" placeholder="password" />
+</div>
+<footer>
+  <button class ="button-login" (click)="login()">login</button>
+</footer>

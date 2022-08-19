@@ -1,0 +1,40 @@
+.content{
+    margin:auto;
+}
+.input-login{
+
+    padding: 10px;
+    outline: 0;
+    width: 310px;
+    margin-left:10px;
+    border-width: 0 0 2px;
+    display: block;
+    border-color: lightgray;
+    
+}
+.error{
+
+    padding: 10px;
+    outline: 0;
+    width: 310px;
+    margin-left:10px;
+    border-width: 0 0 2px;
+    display: block;
+    border-color: red;
+    
+}
+.title-login{
+    height: 25px;
+    width: 350px;
+    background-color: lightcoral;
+    padding: 5px;
+}
+.button-login{
+    border-radius: 3px;
+    border-width: 0px;;
+    box-shadow: 0;
+    padding: 7px;;
+    background-color: lightgray;
+    text-align: center;
+    margin: 10px;
+}

@@ -1,0 +1,19 @@
+<header>
+  <span>Employees</span>
+</header>
+<div class="content">
+  <!-- <mat-slide-toggle></mat-slide-toggle> -->
+  <div class="table">
+    <div class="row">
+      <div class="column" >First Name</div>
+      <div class="column" >Last Name</div>
+      <div class="column" >Position</div>
+      </div>
+
+      <div  class="row" *ngFor="let item of data ; let i=index;" (click) = "details(i)">
+        <div class="column" >{{item.firstName}}</div>
+        <div class="column" >{{item.lastName}}</div>
+        <div class="column" >{{item.position}}</div>
+      </div>
+      </div>
+</div>
